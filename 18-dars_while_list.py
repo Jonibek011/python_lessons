@@ -74,6 +74,10 @@ e_bozor = {}
 #print("Bozordagi mahsulotlar ro'yxati")
 #for key, value in e_bozor.items():
  #   print(f"{key.title()} : {value}")
+
+
+
+
 e_bozor = {'sabzi':3000, 'kartoshka':4500, 'lavash':22000, 'olma':10000, 'cola':12000}
 buyurtmalar = ['lavash', 'olma', 'cola', 'behi']
 while buyurtmalar:
