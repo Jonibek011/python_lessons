@@ -78,19 +78,21 @@ e_bozor = {}
 
 
 
-e_bozor = {'sabzi':3000, 'kartoshka':4500, 'lavash':22000, 'olma':10000, 'cola':12000}
-buyurtmalar = ['lavash', 'olma', 'cola', 'behi']
-while buyurtmalar:
-    buyurtma = buyurtmalar.pop()
-    if buyurtma in e_bozor.keys():
-        narh = e_bozor[buyurtma]
-        print(f"{buyurtma} - {narh} so'm")
-    else:
-        print(f"Bizda {buyurtma} yo'q")
-    
-    
-    
-    
+cars = []
+for n in range(10):
+    new_car = {'model': "molibu",
+               'rang':'oq',
+               'km':0,
+               'yil':2023,
+               'karobka': 'avtomat'}
+    cars.append(new_car)
+for car in cars[:3]:
+   car['rang'] = 'qizil'
+for car in cars[6:]:
+    car['karobka'] = 'mexanik'
+if car['karobka']== 'avtomat': 
+    car['km'] = 10000
+print(    )
     
     
     
